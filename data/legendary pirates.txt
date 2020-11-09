@@ -2,13 +2,13 @@
 	#2) Blaster shuttle, randomly respawning every few months to track you down and get revenge. Nothing special about the ship.
 	#3) Marauder+1 Behemoth, up-armored and hotrodded with extra engines.
 	#4) Marauder+1 Corvette. Handles a bit worse than a corvette, but with defenses similar to a M.Falcon.
-	#5) Marauder+1 Osprey. Just an all-around better Osprey. 
+	#5) Marauder+1 Osprey. Just an all-around better Osprey.
 	#6) Marauder+1 Falcon. Like a Marauder Falcon, but it has the upgrades of both variants.
-	#7) Marauder+1 Leviathan. Sorta' like the +1 Falcon; it's just both upgrade paths smushed together. 
+	#7) Marauder+1 Leviathan. Sorta' like the +1 Falcon; it's just both upgrade paths smushed together.
 	#8) Marauder Bactrian. There's already one in-game as a person ship, but this one will be capturable.
 	#9) Some sort of famous smuggler. Uses merchant swizzle, hull will have built-in scan interference. Maybe a mod argosy. Basically a Millennium Falcon sort of ship.
 	#10) Marauder Skein. Approaches the power level of a Carrier.
-	
+
 ship "Legendary Carrier"
 	sprite "ship/carrier"
 	thumbnail "thumbnail/carrier"
@@ -40,7 +40,7 @@ ship "Legendary Carrier"
 		"Heavy Laser Turret" 2
 		"Heavy Anti-Missile Turret" 2
 		"Torpedo Launcher" 6
-		
+
 		"Fusion Reactor"
 		"LP288a Battery Pack"
 		"D94-YV Shield Generator"
@@ -51,11 +51,11 @@ ship "Legendary Carrier"
 		"Fragmentation Grenades" 40
 		"Security Station"
 		"Tactical Scanner"
-		
+
 		"X5700 Ion Thruster"
 		"X4200 Ion Steering"
 		"Hyperdrive"
-		
+
 	engine -35 200
 	engine 35 200
 	gun -16 -176 "Particle Cannon"
@@ -90,68 +90,179 @@ ship "Legendary Carrier"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "A Carrier is a force to be reckoned with even in its stock configuration. Taken as plunder by a legendary pirate, this vessel has been overhauled with thicker armor, enhanced shield projectors, and, most notably, torpedo bays where its drone hangars used to be."
-	
+
+
 ship "Legendary Behemoth"
-	sprite "ship/behemoth"
-	thumbnail "thumbnail/behemoth"
+	sprite "ship/mbehemoth"
+	thumbnail "thumbnail/mbehemoth"
 	attributes
-		category "Heavy Freighter"
-		"cost" 12800000
-		"shields" 12600
-		"hull" 8300
-		"required crew" 16
-		"bunks" 42
-		"mass" 590
-		"drag" 10.7
-		"heat dissipation" .4
+		category "Heavy Warship"
+		"cost" 17000000
+		"shields" 9200
+		"hull" 7500
+		"required crew" 22
+		"bunks" 45
+		"mass" 480
+		"drag" 10.2
+		"heat dissipation" 0.3
 		"fuel capacity" 600
-		"cargo space" 400
-		"outfit space" 600
-		"weapon capacity" 320
-		"engine capacity" 120
+		"cargo space" 300
+		"outfit space" 915
+		"weapon capacity" 380
+		"engine capacity" 142
 		weapon
-			"blast radius" 220
-			"shield damage" 1400
-			"hull damage" 700
-			"hit force" 2100
+			"blast radius" 167
+			"shield damage" 1670
+			"hull damage" 835
+			"hit force" 2505
 	outfits
-		"Heavy Laser Turret" 4
-		"Heavy Anti-Missile Turret" 2
-		
-		"NT-200 Nucleovoltaic"
-		"LP144a Battery Pack"
-		"D41-HY Shield Generator"
-		"Small Radar Jammer"
-		"Laser Rifle" 3
-		
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
+		"Heavy Rocket Launcher" 4
+		"Plasma Turret" 4
+		"Heavy Rocket" 80
+		"D94-YV Shield Generator"
+		"Liquid Helium Cooler"
+		"Outfits Expansion" 3
+		"LP576a Battery Pack"
+		"Stack Core"
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
 		"Scram Drive"
-		
-	engine -34 143 0.8
-	engine 34 143 0.8
-	engine -56 148.5 0.6
-	engine 56 148.5 0.6
-	engine
-	engine
-	gun -47.5 -57.5
-	gun 47.5 -57.5
-	turret -31 -50 "Heavy Laser Turret"	
-	turret 31 -50 "Heavy Anti-Missile Turret"	
-	turret -47.5 33.5 "Heavy Laser Turret"
-	turret 47.5 33.5 "Heavy Laser Turret"
-	turret -22 66.5 "Heavy Anti-Missile Turret"
-	turret 22 66.5 "Heavy Laser Turret"
-	leak "leak" 30 50
-	leak "flame" 30 80
-	leak "big leak" 50 30
-	explode "small explosion" 15
-	explode "medium explosion" 25
-	explode "large explosion" 35
-	explode "huge explosion" 20
+		"Heavy Anti-Missile Turret" 2
+	gun -22.5 -86.5 "Heavy Rocket Launcher"
+	gun 22.5 -86.5 "Heavy Rocket Launcher"
+	gun -48.5 -56 "Heavy Rocket Launcher"
+	gun 48.5 -56 "Heavy Rocket Launcher"
+	turret -33.5 -47.5 "Plasma Turret"
+	turret 33.5 -47.5 "Plasma Turret"
+	turret -49.5 39.5 "Plasma Turret"
+	turret 49.5 39.5 "Plasma Turret"
+	turret -21.5 74 "Heavy Anti-Missile Turret"
+	turret 21.5 74 "Heavy Anti-Missile Turret"
+	engine -33 154 1.3
+	engine 33 154 1.3
+	engine -57 159.5 1.1
+	engine 57 159.5 1.1
+	engine -66.5 90.5 0.6
+	engine 66.5 90.5 0.6
+	explode "plasma explosion" 9
+	explode "small explosion" 27
+	explode "large explosion" 33
+	explode "nuke explosion" 3
 	"final explode" "final explosion large"
 	description "The Behemoth always straddled the line between freighter and warship; the only thing preventing it from being a pirate's dream was its slow, lumbering nature. After all, you can't plunder what you can't catch. This Behemoth has been heavily modified to remove that particular weakness."
-	
+	description "	The Legendary Behemoth is a mega-battleship used for the sole purpose of plundering gigantic freighters, it's huge cargo holds and massive weaponry help it to batter down it's enemy's defenses while it's huge engines help it to outmaneuver most other ships."
+
+
+
+ship "Legendary Aerie"
+	sprite "ship/legendary aerie"
+	thumbnail "thumbnail/Legendary Aerie"
+	attributes
+		category "Medium Warship"
+		"cost" 5500000
+		"shields" 6700
+		"hull" 1900
+		"required crew" 17
+		"bunks" 39
+		"mass" 170
+		"drag" 4.5
+		"heat dissipation" .6
+		"fuel capacity" 500
+		"cargo space" 50
+		"outfit space" 518
+		"weapon capacity" 195
+		"engine capacity" 155
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 136
+		"Sidewinder Missile Rack" 2
+		"Heavy Anti-Missile Turret"
+		"Torpedo Launcher"
+		"Torpedo" 60
+		"Electron Turret" 2
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"LP288a Battery Pack"
+		"Fission Reactor"
+		"Hyperdrive"
+	gun -13.97 -72.31 "Torpedo Launcher"
+	gun 12.61 -74.35 "Torpedo Launcher"
+	gun -24.2 -25.92 "Sidewinder Missile Launcher"
+	gun 22.83 -25.92 "Sidewinder Missile Launcher"
+	turret -16.7 17.05 "Electron Turret"
+	turret 16.7 18.42 "Electron Turret"
+	turret 0.34 38.2 "Heavy Anti-Missile Turret"
+	engine -7.84 94.82 1.2
+	engine 7.84 94.14 1.2
+	engine -25.56 88.68 0.8
+	engine 25.56 90.04 0.8
+	engine -40.5 74 0.4
+	engine 40.5 74 0.4
+	engine -49 65 0.4
+	engine 49 65 0.4
+	engine -57.5 56 0.4
+	engine 57.5 56 0.4
+	fighter -42 -2
+	fighter 42 2
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Legendary Aerie is the ultimate support vessel, with it's dual electron turrets and fighter bays it can pack a punch while supporting bigger ships like the Legendary Behemoth"
+
+
+
+ship "Marauder Dagger"
+	sprite "ship/mdaggar"
+	thumbnail "thumbnail/mdagger"
+	attributes
+		category "Fighter"
+		"cost" 1129000
+		"shields" 1800
+		"hull" 600
+		"required crew" 1
+		"bunks" 1
+		"mass" 30
+		"drag" .93
+		"heat dissipation" .8
+		"outfit space" 103
+		"weapon capacity" 24
+		"engine capacity" 38
+		weapon
+			"blast radius" 18
+			"shield damage" 180
+			"hull damage" 90
+			"hit force" 260
+	outfits
+		"Javelin Pod" 2
+		"Javelin" 400
+
+		"nGVF-AA Fuel Cell"
+		"Supercapacitor"
+		"D14-RN Shield Generator"
+		"Small Radar Jammer"
+
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+
+	engine -15 30 1.2
+	engine 15 30 1.2
+	gun -14 -10 "Javelin Pod"
+	gun 14 -10 "Javelin Pod"
+	leak "leak" 60 50
+	explode "tiny explosion" 19
+	explode "small explosion" 7
+	description "The Legendary Daggar is one of the biggest fighters you have ever seen, it is big enough to hold reletivly powerful Atomic engines and a pair of javelin launchers. When used in swarms the Marauder daggar is capable of wreaking havoc on any ship."
+
 ship "Legendary Corvette"
 	sprite "ship/corvette"
 	thumbnail "thumbnail/corvette"
@@ -181,7 +292,7 @@ ship "Legendary Corvette"
 		"Sidewinder Missile" 90
 		"Heavy Laser Turret"
 		"Anti-Missile Turret"
-		
+
 		"NT-200 Nucleovoltaic"
 		"KP-6 Photovoltaic Array"
 		"KP-6 Photovoltaic Panel" 2
@@ -189,11 +300,11 @@ ship "Legendary Corvette"
 		"D94-YV Shield Generator"
 		"Large Radar Jammer"
 		"Laser Rifle" 3
-		
+
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
 		"Hyperdrive"
-		
+
 	engine -11 118
 	engine 11 118
 	gun -12 -68 "Heavy Laser"
@@ -211,7 +322,7 @@ ship "Legendary Corvette"
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
 	description "Incorporating new, experimental lightweight materials, the Lionheart Corvette combines the speed and agility of a fighter with the armament of a heavy warship. Its weak hull is more than compensated for by its advanced shielding matrix."
-	
+
 ship "Legendary Osprey"
 
 ship "Legendary Falcon"
@@ -222,4 +333,4 @@ ship "Legendary Bactrian"
 
 ship "Smuggler's Argosy"
 
-ship "Legendary Skein"	
+ship "Legendary Skein"

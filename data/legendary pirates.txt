@@ -333,4 +333,4 @@ ship "Legendary Bactrian"
 
 ship "Smuggler's Argosy"
 
-ship "Legendary Skein"
+ship "Legendary Aerie"

@@ -7,8 +7,45 @@
 	#7) Marauder+1 Leviathan. Sorta' like the +1 Falcon; it's just both upgrade paths smushed together.
 	#8) Marauder Bactrian. There's already one in-game as a person ship, but this one will be capturable.
 	#9) Some sort of famous smuggler. Uses merchant swizzle, hull will have built-in scan interference. Maybe a mod argosy. Basically a Millennium Falcon sort of ship.
-	#10) Marauder Skein. Approaches the power level of a Carrier.
+	#10) Marauder+1 Aerie. Approaches the power level of a Carrier.
 
+government "Legendary Pirate"
+	swizzle 6
+	
+	"player reputation" -10
+	"attitude toward"
+		"Hai" -.01
+		" Hai " -.01
+		"Korath" -.01
+		"Merchant" -.1
+		"Syndicate" -.01
+		"Pirate" 1
+	"fine" 0
+	"friendly hail" "friendly pirate"
+	"hostile hail" "hostile pirate"
+	
+government "Legendary Cartel"
+	display name "Legendary Pirate"
+	swizzle 6
+	
+	"player reputation" -10
+	"attitude toward"
+		"Hai" -.01
+		" Hai " -.01
+		"Korath" -.01
+		"Merchant" -.1
+		"Syndicate" .1
+		"Pirate" 1
+	"friendly hail" "friendly pirate"
+	"hostile hail" "hostile pirate"
+	
+government "Smuggler"
+	display name "Merchant?"
+	swizzle 5
+	
+	"friendly hail" "friendly pirate"
+	"hostile hail" "hostile pirate"
+	
 ship "Legendary Carrier"
 	sprite "ship/carrier"
 	thumbnail "thumbnail/carrier"
@@ -150,8 +187,7 @@ ship "Legendary Behemoth"
 	explode "nuke explosion" 3
 	"final explode" "final explosion large"
 	description "The Behemoth always straddled the line between freighter and warship; the only thing preventing it from being a pirate's dream was its slow, lumbering nature. After all, you can't plunder what you can't catch. This Behemoth has been heavily modified to remove that particular weakness."
-	description "	The Legendary Behemoth is a mega-battleship used for the sole purpose of plundering gigantic freighters, it's huge cargo holds and massive weaponry help it to batter down it's enemy's defenses while it's huge engines help it to outmaneuver most other ships."
-
+	description "	The Legendary Behemoth is a mega-battleship used for the sole purpose of plundering gigantic freighters, its huge cargo holds and massive weaponry help it to batter down enemy defenses while its huge engines help it to outmaneuver most other ships."
 
 
 ship "Legendary Aerie"
@@ -217,8 +253,7 @@ ship "Legendary Aerie"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Legendary Aerie is the ultimate support vessel, with it's dual electron turrets and fighter bays it can pack a punch while supporting bigger ships like the Legendary Behemoth"
-
+	description "The Legendary Aerie is the ultimate support vessel, with its dual electron turrets and fighter bays it can pack a punch while supporting bigger ships like the Legendary Behemoth"
 
 
 ship "Marauder Dagger"
@@ -333,4 +368,11 @@ ship "Legendary Bactrian"
 
 ship "Smuggler's Argosy"
 
-ship "Legendary Aerie"
+
+person "Infernal Adara"
+	government "Pirate"
+	frequency 800
+	personality
+		frugal opportunistic plunders vindictive
+	system
+		near

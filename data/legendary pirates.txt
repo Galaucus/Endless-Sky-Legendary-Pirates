@@ -366,13 +366,51 @@ ship "Legendary Leviathan"
 
 ship "Legendary Bactrian"
 
-ship "Smuggler's Argosy"
-
+ship "Legendary Argosy"
 
 person "Infernal Adara"
-	government "Pirate"
+	government "Legendary Pirate"
 	frequency 800
 	personality
 		frugal opportunistic plunders vindictive
 	system
-		near
+		near Algenib 8
+	ship "Legendary Carrier" "Stygian Pleasure Yacht"
+		
+person "Admiral Onorina"
+	government "Legendary Pirate"
+	frequency 800
+	personality
+		frugal opportunistic plunders
+	system
+		attributes "far north" 
+	ship "Legendary Aerie" "Straight and True"
+	ship "Marauder Dagger" "Right Hook"
+	ship "Marauder Dagger" "Uppercut"
+		
+person "Hans Ohno"
+	government "Smuggler"
+	frequency 1000
+	personality
+		appeasing coward
+	system
+		attributes "dirt belt" "south" "far north"
+	ship "Legendary Argosy" "Eon Trout"
+	
+person `Aegeus "The Behemoth Butcher" Kierkegaard`
+	government "Legendary Pirate"
+	frequency 800
+	personality
+		frugal opportunistic plunders vindictive
+	system
+		attributes "far north"
+	ship "Legendary Behemoth" "Red 57"
+	
+person `Aegeus "The Behemoth Butcher" Kierkegaard`
+	government "Legendary Pirate"
+	frequency 800
+	personality
+		frugal opportunistic plunders
+	system
+		attributes "deep"
+	ship "Legendary Behemoth" "Red 57"

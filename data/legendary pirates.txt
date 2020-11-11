@@ -1,21 +1,67 @@
+
+#TO DO:
 	#1) A refitted Navy Carrier that replaces the hangars with torpedo bays
+	#  X-Ship data
+	#   -Sprite
+	#   -Thumbnail
+	#  X-Person
+	#   -Flavor
 	#2) Blaster shuttle, randomly respawning every few months to track you down and get revenge. Nothing special about the ship.
+	#   -Missions
 	#3) Marauder+1 Behemoth, up-armored and hotrodded with extra engines.
+	#  X-Ship data
+	#  X-Sprite
+	#  X-Thumbnail
+	#  X-Person
+	#   -Flavor
 	#4) Marauder+1 Corvette. Handles a bit worse than a corvette, but with defenses similar to a M.Falcon.
+	#   -Ship data
+	#   -Sprite
+	#   -Thumbnail
+	#   -Person
+	#   -Flavor
 	#5) Marauder+1 Osprey. Just an all-around better Osprey.
+	#   -Ship data
+	#   -Sprite
+	#   -Thumbnail
+	#   -Person
+	#   -Flavor
 	#6) Marauder+1 Falcon. Like a Marauder Falcon, but it has the upgrades of both variants.
+	#   -Ship data
+	#   -Sprite
+	#   -Thumbnail
+	#  X-Person
+	#   -Flavor
 	#7) Marauder+1 Leviathan. Sorta' like the +1 Falcon; it's just both upgrade paths smushed together.
+	#   -Ship data
+	#   -Sprite
+	#   -Thumbnail
+	#  X-Person
+	#   -Flavor
 	#8) Marauder Bactrian. There's already one in-game as a person ship, but this one will be capturable.
+	#   -Ship data
+	#   -Sprite
+	#   -Thumbnail
+	#   -Person
+	#   -Flavor
 	#9) Some sort of famous smuggler. Uses merchant swizzle, hull will have built-in scan interference. Maybe a mod argosy. Basically a Millennium Falcon sort of ship.
+	#   -Ship data
+	#   -Sprite
+	#   -Thumbnail
+	#  X-Person
+	#   -Flavor
 	#10) Marauder+1 Aerie. Approaches the power level of a Carrier.
+	#  X-Ship data
+	#  X-Sprite
+	#  X-Thumbnail
+	#  X-Person
+	#   -Flavor
 
 government "Legendary Pirate"
 	swizzle 6
 	
 	"player reputation" -10
 	"attitude toward"
-		"Hai" -.01
-		" Hai " -.01
 		"Korath" -.01
 		"Merchant" -.1
 		"Syndicate" -.01
@@ -30,14 +76,26 @@ government "Legendary Cartel"
 	
 	"player reputation" -10
 	"attitude toward"
-		"Hai" -.01
-		" Hai " -.01
 		"Korath" -.01
 		"Merchant" -.1
 		"Syndicate" .1
 		"Pirate" 1
 	"friendly hail" "friendly pirate"
 	"hostile hail" "hostile pirate"
+	
+government "Omnicidal"
+	display name "Legendary Pirate"
+	swizzle 6
+	
+	"player reputation" -1000
+	"attitude toward"
+		"Merchant" -.01
+		"Syndicate" -.01
+		"Pirate" -.01
+		"Free Worlds" -.01
+		"Republic" -.01
+	"friendly hail" "friendly pirate"
+	"hostile hail" "hostile pirate"	
 	
 government "Smuggler"
 	display name "Merchant?"
@@ -374,7 +432,7 @@ person "Infernal Adara"
 	personality
 		frugal opportunistic plunders vindictive
 	system
-		near Algenib 8
+		near Algenib 6
 	ship "Legendary Carrier" "Stygian Pleasure Yacht"
 		
 person "Admiral Onorina"
@@ -406,11 +464,22 @@ person `Aegeus "The Behemoth Butcher" Kierkegaard`
 		attributes "far north"
 	ship "Legendary Behemoth" "Red 57"
 	
-person `Aegeus "The Behemoth Butcher" Kierkegaard`
-	government "Legendary Pirate"
+person "Bloody Larry"
+		government "Omnicidal"
 	frequency 800
 	personality
-		frugal opportunistic plunders
+		opportunistic vindictive
 	system
-		attributes "deep"
-	ship "Legendary Behemoth" "Red 57"
+		attributes "south"
+	ship "Legendary Falcon" "Hatred Unbound"
+	
+person `Samantha "the Northern Queen" Anderson`
+		government "Legendary Pirate"
+	frequency 800
+	personality
+		frugal plunders
+	system
+		near Alycone 6
+	ship "Legendary Leviathan" "Queen Reject"
+	
+person 

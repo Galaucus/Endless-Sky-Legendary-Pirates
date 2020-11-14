@@ -59,7 +59,7 @@
 
 government "Legendary Pirate"
 	swizzle 6
-	
+
 	"player reputation" -10
 	"attitude toward"
 		"Korath" -.01
@@ -69,11 +69,11 @@ government "Legendary Pirate"
 	"fine" 0
 	"friendly hail" "friendly pirate"
 	"hostile hail" "hostile pirate"
-	
+
 government "Legendary Cartel"
 	display name "Legendary Pirate"
 	swizzle 6
-	
+
 	"player reputation" -10
 	"attitude toward"
 		"Korath" -.01
@@ -82,11 +82,11 @@ government "Legendary Cartel"
 		"Pirate" 1
 	"friendly hail" "friendly pirate"
 	"hostile hail" "hostile pirate"
-	
+
 government "Omnicidal"
 	display name "Legendary Pirate"
 	swizzle 6
-	
+
 	"player reputation" -1000
 	"attitude toward"
 		"Merchant" -.01
@@ -95,18 +95,18 @@ government "Omnicidal"
 		"Free Worlds" -.01
 		"Republic" -.01
 	"friendly hail" "friendly pirate"
-	"hostile hail" "hostile pirate"	
-	
+	"hostile hail" "hostile pirate"
+
 government "Smuggler"
 	display name "Merchant?"
 	swizzle 5
-	
+
 	"friendly hail" "friendly pirate"
 	"hostile hail" "hostile pirate"
-	
+
 ship "Legendary Carrier"
-	sprite "ship/carrier"
-	thumbnail "thumbnail/carrier"
+	sprite "ship/mcarrier"
+	thumbnail "thumbnail/carrierthumb"
 	attributes
 		category "Heavy Warship"
 		"cost" 18000000
@@ -434,18 +434,18 @@ person "Infernal Adara"
 	system
 		near Algenib 6
 	ship "Legendary Carrier" "Stygian Pleasure Yacht"
-		
+
 person "Admiral Onorina"
 	government "Legendary Pirate"
 	frequency 800
 	personality
 		frugal opportunistic plunders
 	system
-		attributes "far north" 
+		attributes "far north"
 	ship "Legendary Aerie" "Straight and True"
 	ship "Marauder Dagger" "Right Hook"
 	ship "Marauder Dagger" "Uppercut"
-		
+
 person "Hans Ohno"
 	government "Smuggler"
 	frequency 1000
@@ -454,7 +454,7 @@ person "Hans Ohno"
 	system
 		attributes "dirt belt" "south" "far north"
 	ship "Legendary Argosy" "Eon Trout"
-	
+
 person `Aegeus "The Behemoth Butcher" Kierkegaard`
 	government "Legendary Pirate"
 	frequency 800
@@ -463,7 +463,7 @@ person `Aegeus "The Behemoth Butcher" Kierkegaard`
 	system
 		attributes "far north"
 	ship "Legendary Behemoth" "Red 57"
-	
+
 person "Bloody Larry"
 		government "Omnicidal"
 	frequency 800
@@ -472,7 +472,7 @@ person "Bloody Larry"
 	system
 		attributes "south"
 	ship "Legendary Falcon" "Hatred Unbound"
-	
+
 person `Samantha "the Northern Queen" Anderson`
 		government "Legendary Pirate"
 	frequency 800
@@ -481,5 +481,5 @@ person `Samantha "the Northern Queen" Anderson`
 	system
 		near Alycone 6
 	ship "Legendary Leviathan" "Queen Reject"
-	
-person 
+
+person

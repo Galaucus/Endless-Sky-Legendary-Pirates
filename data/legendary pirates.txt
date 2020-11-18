@@ -2,8 +2,8 @@
 #TO DO:
 	#1) A refitted Navy Carrier that replaces the hangars with torpedo bays
 	#  X-Ship data
-	#   -Sprite
-	#   -Thumbnail
+	#  X-Sprite
+	#  X-Thumbnail
 	#  X-Person
 	#   -Flavor
 	#2) Blaster shuttle, randomly respawning every few months to track you down and get revenge. Nothing special about the ship.
@@ -246,7 +246,7 @@ ship "Legendary Behemoth"
 	explode "nuke explosion" 3
 	"final explode" "final explosion large"
 	description "The Behemoth always straddled the line between freighter and warship; the only thing preventing it from being a pirate's dream was its slow, lumbering nature. After all, you can't plunder what you can't catch. This Behemoth has been heavily modified to remove that particular weakness."
-	description "	The Legendary Behemoth is a mega-battleship used for the sole purpose of plundering gigantic freighters, its huge cargo holds and massive weaponry help it to batter down enemy defenses while its huge engines help it to outmaneuver most other ships."
+	description "The Legendary Behemoth is a mega-battleship used for the sole purpose of plundering gigantic freighters, its huge cargo holds and massive weaponry help it to better strip merchants of their booty while its huge engines outmaneuver defense fleets."
 
 
 ship "Legendary Aerie"
@@ -312,8 +312,8 @@ ship "Legendary Aerie"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Legendary Aerie is the ultimate support vessel, with its dual electron turrets and fighter bays it can pack a punch while supporting bigger ships like the Legendary Behemoth"
-
+	description "Admiral Onarina's Aerie has been a terror of the far north for as long as any living captain can remember. Legend tells that the Straight and True has been handed down from captain to captain for generations, making it one of the oldest Aerie-class ships in space. Each captain has left their own mark on this venerable vessel in one way or another. Hundreds of years of tweaks and upgrades has reconfigured the ship above and beyond the capabilities of a stock model of the same hull."
+	description `"Dual electron beam turrets appear to be the most recent installations on this ship. Between them, a complement of torpedoes, and two fighter hangars, this ship alone really does boast the firepower of a small fleet - perhaps explaining why its previous owner claimed the title "Admiral".`
 
 ship "Marauder Dagger"
 	sprite "ship/mdaggar"
@@ -426,6 +426,27 @@ ship "Legendary Bactrian"
 
 ship "Legendary Argosy"
 
+ship "Shuttle" "Shuttle (Blaster)"
+	outfits
+		"Energy Blaster"
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+
+ship "Shuttle" "Shuttle (Missile)"
+	outfits
+		"Meteor Missile Launcher"
+		"Meteor Missile" 30
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"		
+		"X2700 Ion Thruster"
+		"Chipmunk Plasma Steering"
+		"Hyperdrive"
+
 person "Infernal Adara"
 	government "Legendary Pirate"
 	frequency 800
@@ -483,3 +504,21 @@ person `Samantha "the Northern Queen" Anderson`
 	ship "Legendary Leviathan" "Queen Reject"
 
 person
+
+
+mission "Nemesis Encounter (Shuttle)"
+	invisible
+	repeat
+	deadline 3
+	to offer
+		random < 1
+		"combat rating" < 50
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Pirate"
+	npc kill
+		government "Pirate"
+		personality nemesis staying harvests plunders
+			confusion 40
+		ship "Shuttle (Blaster)" "Pequod"
+		system
+			distance 1

@@ -1,62 +1,4 @@
 
-#TO DO:
-	#1) A refitted Navy Carrier that replaces the hangars with torpedo bays
-	#  X-Ship data
-	#  X-Sprite
-	#  X-Thumbnail
-	#  X-Person
-	#   -Flavor
-	#2) Blaster shuttle, randomly respawning every few months to track you down and get revenge. Nothing special about the ship.
-	#   -Missions
-	#3) Marauder+1 Behemoth, up-armored and hotrodded with extra engines.
-	#  X-Ship data
-	#  X-Sprite
-	#  X-Thumbnail
-	#  X-Person
-	#   -Flavor
-	#4) Marauder+1 Corvette. Handles a bit worse than a corvette, but with defenses similar to a M.Falcon.
-	#   -Ship data
-	#   -Sprite
-	#   -Thumbnail
-	#   -Person
-	#   -Flavor
-	#5) Marauder+1 Osprey. Just an all-around better Osprey.
-	#   -Ship data
-	#   -Sprite
-	#   -Thumbnail
-	#   -Person
-	#   -Flavor
-	#6) Marauder+1 Falcon. Like a Marauder Falcon, but it has the upgrades of both variants.
-	#   -Ship data
-	#   -Sprite
-	#   -Thumbnail
-	#  X-Person
-	#   -Flavor
-	#7) Marauder+1 Leviathan. Sorta' like the +1 Falcon; it's just both upgrade paths smushed together.
-	#   -Ship data
-	#   -Sprite
-	#   -Thumbnail
-	#  X-Person
-	#   -Flavor
-	#8) Marauder Bactrian. There's already one in-game as a person ship, but this one will be capturable.
-	#   -Ship data
-	#   -Sprite
-	#   -Thumbnail
-	#   -Person
-	#   -Flavor
-	#9) Some sort of famous smuggler. Uses merchant swizzle, hull will have built-in scan interference. Maybe a mod argosy. Basically a Millennium Falcon sort of ship.
-	#   -Ship data
-	#   -Sprite
-	#   -Thumbnail
-	#  X-Person
-	#   -Flavor
-	#10) Marauder+1 Aerie. Approaches the power level of a Carrier.
-	#  X-Ship data
-	#  X-Sprite
-	#  X-Thumbnail
-	#  X-Person
-	#   -Flavor
-
 government "Legendary Pirate"
 	swizzle 6
 
@@ -362,9 +304,9 @@ ship "Legendary Corvette"
 	thumbnail "thumbnail/corvette"
 	attributes
 		category "Medium Warship"
-		"cost" 4400000
+		"cost" 8800000
 		"shields" 9800
-		"hull" 2600
+		"hull" 1600
 		"required crew" 10
 		"bunks" 38
 		"mass" 175
@@ -373,7 +315,7 @@ ship "Legendary Corvette"
 		"fuel capacity" 600
 		"cargo space" 35
 		"outfit space" 470
-		"weapon capacity" 162
+		"weapon capacity" 172
 		"engine capacity" 112
 		weapon
 			"blast radius" 80
@@ -381,22 +323,22 @@ ship "Legendary Corvette"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Typhoon Launcher" 4
-		"Typhoon Torpedo" 60
-		"Heavy Laser Turret"
-		"Anti-Missile Turret"	
-
-		"NT-200 Nucleovoltaic"
-		"KP-6 Photovoltaic Array"
-		"KP-6 Photovoltaic Panel" 2
+		Hyperdrive
+		`"Biroo" Atomic Steering`
 		"LP072a Battery Pack"
-		"D94-YV Shield Generator"
+		Afterburner
+		"Electron Beam" 2
+		"A370 Atomic Thruster"
+		"Heavy Laser Turret"
+		"Laser Rifle" 38
+		"Liquid Nitrogen Cooler"
+		"Anti-Missile Turret"
+		"Water Coolant System"
+		"Breeder Reactor"
 		"Large Radar Jammer"
-		"Laser Rifle" 3
-
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
-		"Hyperdrive"
+		"S-970 Regenerator"
+		"Typhoon Torpedo" 60
+		"Typhoon Launcher" 2
 
 	engine -11 118
 	engine 11 118
@@ -417,7 +359,62 @@ ship "Legendary Corvette"
 	description "Sleek and mean, this corvette has been tweaked, modified, and rebuilt into a shining hotrod of the void. Whatever it can't kill it can likely outrun."
 	
 ship "Legendary Osprey"
-
+sprite "ship/osprey"
+	thumbnail "thumbnail/osprey"
+	attributes
+		category "Medium Warship"
+		"cost" 4200000
+		"shields" 7200
+		"hull" 1600
+		"required crew" 9
+		"bunks" 24
+		"mass" 270
+		"drag" 5.9
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 450
+		"weapon capacity" 180
+		"engine capacity" 130
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Plasma Cannon" 4
+		"Quad Blaster Turret"
+		"Heavy Anti-Missile Turret"
+		
+		"Breeder Reactor"
+		"LP036a Battery Pack"
+		"D41-HY Shield Generator"
+		"Large Radar Jammer"
+		"Liquid Helium Cooler"
+		"Laser Rifle" 3
+		
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		
+	engine -40 67
+	engine 40 67
+	gun -8 -100 "Plasma Cannon"
+	gun 8 -100 "Plasma Cannon"
+	gun -26 -53 "Plasma Cannon"
+	gun 26 -53 "Plasma Cannon"
+	turret -16 -16 "Quad Blaster Turret"
+	turret 16 -16 "Heavy Anti-Missile Turret"
+	leak "leak" 40 50
+	leak "flame" 80 80
+	leak "big leak" 80 30
+	explode "medium explosion" 24
+	explode "large explosion" 16
+	explode "small explosion" 40
+	explode "tiny explosion" 28
+	"final explode" "final explosion medium"
+	description "After the Blackbird gained surprising popularity as an agile light warship despite its original design as a transport, Tarazed decided to produce a new design specifically intended as a warship. The Osprey was the result. Although it is considered overpriced by most savvy pilots, it is nevertheless a perennial favorite among those who have the extra cash to spend on it."
+	
 ship "Legendary Falcon"
 
 ship "Legendary Leviathan"

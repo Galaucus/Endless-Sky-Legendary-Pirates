@@ -360,43 +360,43 @@ ship "Legendary Corvette"
 	description "Sleek and mean, this corvette has been tweaked, modified, and rebuilt into a shining hotrod of the void. Whatever it can't kill it can likely outrun."
 	
 ship "Legendary Osprey"
-sprite "ship/osprey"
+	sprite "ship/osprey"
 	thumbnail "thumbnail/osprey"
 	attributes
 		category "Medium Warship"
 		"cost" 4200000
-		"shields" 7200
-		"hull" 1600
-		"required crew" 9
-		"bunks" 24
+		"shields" 9600
+		"hull" 2300
+		"required crew" 4
+		"bunks" 20
 		"mass" 270
 		"drag" 5.9
-		"heat dissipation" .8
+		"heat dissipation" .9
 		"fuel capacity" 600
-		"cargo space" 40
-		"outfit space" 450
-		"weapon capacity" 180
-		"engine capacity" 130
+		"cargo space" 38
+		"outfit space" 480
+		"weapon capacity" 200
+		"engine capacity" 135
 		weapon
 			"blast radius" 80
 			"shield damage" 800
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Plasma Cannon" 4
-		"Quad Blaster Turret"
-		"Heavy Anti-Missile Turret"
-		
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		Afterburner
 		"Breeder Reactor"
+		"Electron Turret" 2
+		"Fuel Pod"
+		"Heavy Rocket" 80
+		"Heavy Rocket Launcher" 4
+		Hyperdrive
 		"LP036a Battery Pack"
-		"D41-HY Shield Generator"
-		"Large Radar Jammer"
-		"Liquid Helium Cooler"
 		"Laser Rifle" 3
-		
-		"Impala Plasma Thruster"
-		"Impala Plasma Steering"
-		"Hyperdrive"
+		"Liquid Nitrogen Cooler"
+		"S-970 Regenerator"
+		"Water Coolant System"
 		
 	engine -40 67
 	engine 40 67
@@ -449,7 +449,7 @@ person "Infernal Adara"
 	government "Legendary Pirate"
 	frequency 800
 	personality
-		frugal opportunistic plunders vindictive
+		frugal opportunistic plunders disables
 	system
 		near Algenib 6
 	ship "Legendary Carrier" "Stygian Pleasure Yacht"
@@ -484,7 +484,7 @@ person `Aegeus "The Behemoth Butcher" Kierkegaard`
 	ship "Legendary Behemoth" "Red 57"
 
 person "Bloody Larry"
-		government "Omnicidal"
+	government "Omnicidal"
 	frequency 800
 	personality
 		opportunistic vindictive
@@ -493,16 +493,32 @@ person "Bloody Larry"
 	ship "Legendary Falcon" "Hatred Unbound"
 
 person `Samantha "the Northern Queen" Anderson`
-		government "Legendary Pirate"
+	government "Legendary Pirate"
 	frequency 800
 	personality
-		frugal plunders
+		frugal plunders disables
 	system
 		near Alycone 6
 	ship "Legendary Leviathan" "Queen Reject"
 
-person
-
+person "Black Nordheim"
+	government "Legendary Pirate"
+	frequency 800
+	personality
+		plunders appeasing
+	system
+		attributes "deep"
+	ship "Legendary Corvette" "Phantomgale"
+	
+person "The Cyborg"
+	government "Legendary Pirate"
+	frequency 800
+	personality
+		plunders disables
+	system
+		near Nunki 2
+		near Umbral 2
+	ship "Legendary Osprey" "Transcendence"
 
 mission "Nemesis Encounter (Shuttle)"
 	invisible

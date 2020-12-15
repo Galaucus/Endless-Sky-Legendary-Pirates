@@ -69,39 +69,40 @@ ship "Legendary Carrier"
 			"shield damage" 3000
 			"hull damage" 1500
 			"hit force" 4500
-	outfits
-		"Particle Cannon" 4
+outfits
+		Brig
+		Ramscoop
+		"Heavy Anti-Missile Turret" 2
+		"Liquid Helium Cooler"
+		"Scram Drive"
+		"Tyrant Plasma Thruster"
+		"Impala Plasma Steering"
+		"Heavy Laser Turret" 2
+		"Tactical Scanner"
+		"Laser Rifle" 40
+		"Liquid Nitrogen Cooler"
+		"Security Station"
+		Torpedo 240
+		"Torpedo Launcher" 6
 		"Meteor Missile Launcher" 4
 		"Meteor Missile" 150
-		"Meteor Missile Box" 2
-		"Heavy Laser Turret" 2
-		"Heavy Anti-Missile Turret" 2
-		"Torpedo Launcher" 6
-		"Torpedo" 180
-	
-		"Fusion Reactor"
-		"LP288a Battery Pack"
-		"D94-YV Shield Generator"
 		"Large Radar Jammer" 2
-		"Water Coolant System"
-		"Brig"
-		"Laser Rifle" 40
+		"LP288a Battery Pack"
+		"S-970 Regenerator" 2
+		"Armageddon Core"
 		"Fragmentation Grenades" 40
-		"Security Station"
-		"Tactical Scanner"
-
-		"X5700 Ion Thruster"
-		"X4200 Ion Steering"
-		"Hyperdrive"
+		"Torpedo Storage Rack" 4
+		"Beam Laser" 4
+		"Meteor Missile Box" 2
 
 	engine -35 200
 	engine 35 200
-	gun -16 -176 "Particle Cannon"
-	gun 16 -176 "Particle Cannon"
+	gun -16 -176 "Beam Laser"
+	gun 16 -176 "Beam Laser"
 	gun -16 -176 "Meteor Missile Launcher"
 	gun 16 -176 "Meteor Missile Launcher"
-	gun -25 -166 "Particle Cannon"
-	gun 25 -166 "Particle Cannon"
+	gun -25 -166 "Beam Laser"
+	gun 25 -166 "Beam Laser"
 	gun -25 -166 "Meteor Missile Launcher"
 	gun 25 -166 "Meteor Missile Launcher"
 	gun -72 -46 "Torpedo Launcher"
@@ -255,7 +256,7 @@ ship "Legendary Aerie"
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
 	description "Admiral Onarina's Aerie has been a terror of the far north for as long as any living captain can remember. Legend tells that the Straight and True has been handed down from captain to captain for generations, making it one of the oldest Aerie-class ships in space. Each captain has left their own mark on this venerable vessel in one way or another. Hundreds of years of tweaks and upgrades has reconfigured the ship above and beyond the capabilities of a stock model of the same hull."
-	description `"Dual electron beam turrets appear to be the most recent installations on this ship. Between them, a complement of torpedoes, and two fighter hangars, this ship alone really does boast the firepower of a small fleet - perhaps explaining why its previous owner claimed the title "Admiral".`
+	description `"Dual electron beam turrets appear to be the most recent installations on this ship; even if you, the new owner, were to replace them, the upgraded turret infrastructure that came with the installation should allow for beefier guns. Between them, a complement of torpedoes, and two fighter hangars, this ship alone really does boast the firepower of a small fleet - perhaps explaining why its previous owner claimed the title "Admiral".`
 
 ship "Marauder Dagger"
 	sprite "ship/mdaggar"
@@ -342,8 +343,8 @@ ship "Legendary Corvette"
 
 	engine -11 118
 	engine 11 118
-	gun -12 -68 "Heavy Laser"
-	gun 12 -68 "Heavy Laser"
+	gun -12 -68 
+	gun 12 -68 
 	gun -14 -60 "Typhoon Launcher"
 	gun 14 -60 "Typhoon Launcher"
 	turret 0 -11 "Heavy Laser Turret"

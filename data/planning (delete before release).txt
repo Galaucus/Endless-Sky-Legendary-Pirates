@@ -15,16 +15,16 @@
 	#  X-Person
 	#   -Flavor
 	#4) Marauder+1 Corvette. Handles a bit worse than a corvette, but with defenses similar to a M.Falcon.
-	#   -Ship data
+	#  X-Ship data
 	#   -Sprite
 	#   -Thumbnail
-	#   -Person
+	#  X-Person
 	#   -Flavor
 	#5) Marauder+1 Osprey. Just an all-around better Osprey.
-	#   -Ship data
+	#  X-Ship data
 	#   -Sprite
 	#   -Thumbnail
-	#   -Person
+	#  X-Person
 	#   -Flavor
 	#6) Marauder+1 Falcon. Like a Marauder Falcon, but it has the upgrades of both variants.
 	#   -Ship data

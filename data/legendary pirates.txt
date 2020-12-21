@@ -360,43 +360,43 @@ ship "Legendary Corvette"
 	description "Sleek and mean, this corvette has been tweaked, modified, and rebuilt into a shining hotrod of the void. Whatever it can't kill it can likely outrun."
 	
 ship "Legendary Osprey"
-sprite "ship/osprey"
+	sprite "ship/osprey"
 	thumbnail "thumbnail/osprey"
 	attributes
 		category "Medium Warship"
 		"cost" 4200000
-		"shields" 7200
-		"hull" 1600
-		"required crew" 9
-		"bunks" 24
+		"shields" 9600
+		"hull" 2300
+		"required crew" 4
+		"bunks" 20
 		"mass" 270
 		"drag" 5.9
-		"heat dissipation" .8
+		"heat dissipation" .9
 		"fuel capacity" 600
-		"cargo space" 40
-		"outfit space" 450
-		"weapon capacity" 180
-		"engine capacity" 130
+		"cargo space" 38
+		"outfit space" 480
+		"weapon capacity" 200
+		"engine capacity" 135
 		weapon
 			"blast radius" 80
 			"shield damage" 800
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Plasma Cannon" 4
-		"Quad Blaster Turret"
-		"Heavy Anti-Missile Turret"
-		
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		Afterburner
 		"Breeder Reactor"
+		"Electron Turret" 2
+		"Fuel Pod"
+		"Heavy Rocket" 80
+		"Heavy Rocket Launcher" 4
+		Hyperdrive
 		"LP036a Battery Pack"
-		"D41-HY Shield Generator"
-		"Large Radar Jammer"
-		"Liquid Helium Cooler"
 		"Laser Rifle" 3
-		
-		"Impala Plasma Thruster"
-		"Impala Plasma Steering"
-		"Hyperdrive"
+		"Liquid Nitrogen Cooler"
+		"S-970 Regenerator"
+		"Water Coolant System"
 		
 	engine -40 67
 	engine 40 67
@@ -417,8 +417,120 @@ sprite "ship/osprey"
 	description "After the Blackbird gained surprising popularity as an agile light warship despite its original design as a transport, Tarazed decided to produce a new design specifically intended as a warship. The Osprey was the result. Although it is considered overpriced by most savvy pilots, it is nevertheless a perennial favorite among those who have the extra cash to spend on it."
 	
 ship "Legendary Falcon"
+	sprite "ship/mfalcons"
+	thumbnail "thumbnail/mfalcons"
+	attributes
+		category "Heavy Warship"
+		"cost" 28000000
+		"shields" 15100
+		"hull" 5200
+		"required crew" 51
+		"bunks" 80
+		"mass" 560
+		"drag" 6.7
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 600
+		"weapon capacity" 300
+		"engine capacity" 220
+		weapon
+			"blast radius" 170
+			"shield damage" 1750
+			"hull damage" 900
+			"hit force" 2750
+	outfits
+		"Plasma Cannon" 4
+		"Modified Blaster Turret" 4
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator"
+		"Large Radar Jammer"
+		"Liquid Helium Cooler"
+		"Outfits Expansion" 3
+		"Laser Rifle" 80
+		
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+
+	engine -16.5 143
+	engine 16.5 143
+	gun -16 -86.5 "Plasma Cannon"
+	gun 16 -86.5 "Plasma Cannon"
+	gun -19 -76.5 "Plasma Cannon"
+	gun 19 -76.5 "Plasma Cannon"
+	turret -16 -29 "Modified Blaster Turret"
+	turret 16 -29 "Modified Blaster Turret"
+	turret -50 39.5 "Modified Blaster Turret"
+	turret 50 39.5 "Modified Blaster Turret"
+	explode "tiny explosion" 40
+	explode "small explosion" 55
+	explode "medium explosion" 60
+	explode "large explosion" 40
+	"final explode" "final explosion large"
+	description "Marauders are well-known for overhauling vessels far beyond their stock specifications. While this generally means accepting that expanding your engines and weapons systems are mutually exclusive choices, it would seem that with a truly inspired enginering team and an obscene budget one can overcome those constraints."
+	description "The history of this Falcon is blood-soaked indeed. Boasting enhanced engines and weapons systems, it's terrorized the southern worlds for decades as it passes from one brutal captain to another. It would seem that it's found a new owner in you - but will you continue its legacy?"
 
 ship "Legendary Leviathan"
+	sprite "ship/mleviathans"
+	thumbnail "thumbnail/mleviathans"
+	attributes
+		category "Heavy Warship"
+		"cost" 10800000
+		"shields" 20000
+		"hull" 5500
+		"required crew" 48
+		"bunks" 69
+		"mass" 620
+		"drag" 7.2
+		"heat dissipation" .5
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 710
+		"weapon capacity" 300
+		"engine capacity" 220
+		"self destruct" .15
+		weapon
+			"blast radius" 90
+			"shield damage" 900
+			"hull damage" 450
+			"hit force" 1500
+	outfits
+		"Particle Cannon" 4
+		"Quad Blaster Turret" 2
+		"Heavy Laser Turret" 2
+		
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Large Radar Jammer"
+		"Liquid Helium Cooler"
+		"Outfits Expansion" 2
+		"Laser Rifle" 69
+		
+		"A370 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Ionic Afterburner"
+		"Hyperdrive"
+	
+	engine -23 126.5
+	engine 23 126.5
+	gun -39.5 -33 "Particle Cannon"
+	gun 39.5 -33 "Particle Cannon"
+	gun -51 -21 "Particle Cannon"
+	gun 51 -21 "Particle Cannon"
+	turret -14.5 -11.5 "Quad Blaster Turret"
+	turret 14.5 -11.5 "Quad Blaster Turret"
+	turret -26 1	1.5 "Heavy Laser Turret"
+	turret 26 11.5 "Heavy Laser Turret"
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
+	description `The Betelgeuse Shipyards Leviathan has been in service for a long time, and this one longer than most. Rumors hold that this particular hull has been passed down the matriarchal line of a clan of "pirate queens" of the Far North for several centuries. Well-maintained and upgraded by every successive owner, the Queen Reject has grown in capability to rival any military cruiser. The addition of modernized shielding technology and lightweight hull composites have resulted in an unusually agile version of this venerable design without sacrificing any protection.`
 
 ship "Legendary Bactrian"
 
@@ -449,7 +561,7 @@ person "Infernal Adara"
 	government "Legendary Pirate"
 	frequency 800
 	personality
-		frugal opportunistic plunders vindictive
+		frugal opportunistic plunders disables
 	system
 		near Algenib 6
 	ship "Legendary Carrier" "Stygian Pleasure Yacht"
@@ -484,7 +596,7 @@ person `Aegeus "The Behemoth Butcher" Kierkegaard`
 	ship "Legendary Behemoth" "Red 57"
 
 person "Bloody Larry"
-		government "Omnicidal"
+	government "Omnicidal"
 	frequency 800
 	personality
 		opportunistic vindictive
@@ -493,16 +605,32 @@ person "Bloody Larry"
 	ship "Legendary Falcon" "Hatred Unbound"
 
 person `Samantha "the Northern Queen" Anderson`
-		government "Legendary Pirate"
+	government "Legendary Pirate"
 	frequency 800
 	personality
-		frugal plunders
+		frugal plunders disables
 	system
 		near Alycone 6
 	ship "Legendary Leviathan" "Queen Reject"
 
-person
-
+person "Black Nordheim"
+	government "Legendary Pirate"
+	frequency 800
+	personality
+		plunders appeasing
+	system
+		attributes "deep"
+	ship "Legendary Corvette" "Phantomgale"
+	
+person "The Cyborg"
+	government "Legendary Pirate"
+	frequency 800
+	personality
+		plunders disables
+	system
+		near Nunki 2
+		near Umbral 2
+	ship "Legendary Osprey" "Transcendence"
 
 mission "Nemesis Encounter (Shuttle)"
 	invisible

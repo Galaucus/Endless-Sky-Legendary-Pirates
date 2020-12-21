@@ -533,11 +533,9 @@ ship "Legendary Leviathan"
 	description `The Betelgeuse Shipyards Leviathan has been in service for a long time, and this one longer than most. Rumors hold that this particular hull has been passed down the matriarchal line of a clan of "pirate queens" of the Far North for several centuries. Well-maintained and upgraded by every successive owner, the Queen Reject has grown in capability to rival any military cruiser. The addition of modernized shielding technology and lightweight hull composites have resulted in an unusually agile version of this venerable design without sacrificing any protection.`
 
 ship "Abomination"
-    sprite "ship/bactrian"
+    sprite "ship/abomination"
     thumbnail "thumbnail/bactrian"
     attributes
-        licenses
-            City-Ship
         category "Heavy Warship"
         "cost" 25000000
         "shields" 28500
@@ -557,6 +555,42 @@ ship "Abomination"
             "shield damage" 4600
             "hull damage" 2300
             "hit force" 5900
+
+	gun -4.5 -223.5
+	fighter -30 -218
+		under
+	fighter -30 -218
+		under
+	fighter -30 -218
+		under
+	fighter -30 -218
+		under
+	fighter -30 -218
+		under
+	fighter -30 -218
+		under
+	fighter -30 -218
+		under
+	fighter -30 -218
+		under		
+	turret -30 -193.5
+	turret 16 -111.5
+	turret -20.5 -6.5
+	turret -42.5 60.5
+	turret 16 142
+	turret 17.5 61.5
+	turret 62 126
+	turret -67 183
+	turret 48 41
+	turret 65 -33
+	turret -16 -150.5
+	turret 48.5 39
+	engine -70 213.5
+	engine -40 214
+	engine 2 214.5
+	engine 32 210.5
+	engine 54 198.5
+	engine 76 199.5
 
 ship "Legendary Argosy"
 

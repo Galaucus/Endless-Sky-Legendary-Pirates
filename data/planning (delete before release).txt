@@ -69,6 +69,6 @@ shipyard "Legendary Ships"
 	"Legendary Osprey"
 	"Legendary Falcon"
 	"Legendary Leviathan"
-	"Legendary Bactrian"
+	"Abomination"
 	"Legendary Argosy"
 	

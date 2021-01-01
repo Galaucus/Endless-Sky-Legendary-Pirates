@@ -255,8 +255,8 @@ ship "Legendary Aerie"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "Admiral Onarina's Aerie has been a terror of the far north for as long as any living captain can remember. Legend tells that the Straight and True has been handed down from captain to captain for generations, making it one of the oldest Aerie-class ships in space. Each captain has left their own mark on this venerable vessel in one way or another. Hundreds of years of tweaks and upgrades has reconfigured the ship above and beyond the capabilities of a stock model of the same hull."
-	description `"Dual electron beam turrets appear to be the most recent installations on this ship; even if you, the new owner, were to replace them, the upgraded turret infrastructure that came with the installation should allow for beefier guns. Between them, a complement of torpedoes, and two fighter hangars, this ship alone really does boast the firepower of a small fleet - perhaps explaining why its previous owner claimed the title "Admiral".`
+	description "Admiral Onarina's Aerie has been a terror of the far north for as long as any living captain can remember. Legend tells that the Straight and True has been handed down from captain to captain for generations, making it one of the oldest Aerie-class ships in space. Each captain has left their own mark on this venerable vessel in one way or another; hundreds of years of tweaks and upgrades have reconfigured the ship above and beyond the capabilities of any other Aerie."
+	description `"Dual electron beam turrets appear to be the most recent installations on this ship: Even if you, the new owner, were to replace them, the upgraded turret infrastructure that came with the installation should allow for beefier guns. Between them, a complement of torpedoes, and two fighter hangars, this ship alone really does boast the firepower of a small fleet - perhaps explaining why its previous owner claimed the title "Admiral".`
 
 ship "Marauder Dagger"
 	sprite "ship/mdaggar"

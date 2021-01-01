@@ -674,7 +674,7 @@ person "The Collective"
 	ship "Dagger" "EjoThims"
 	
 
-person "Hans Ohno"
+person "Hans Kierkegaard"
 	government "Smuggler"
 	frequency 1000
 	personality
@@ -683,15 +683,15 @@ person "Hans Ohno"
 		attributes "dirt belt" "south" "far north"
 	ship "Legendary Argosy" "Eon Trout"
 
-person `Aegeus "The Behemoth Butcher" Kierkegaard`
+person `Reddard "The Behemoth Butcher" Ohno`
 	government "Legendary Pirate"
 	frequency 800
 	personality
 		frugal opportunistic plunders vindictive
 	system
 		attributes "far north"
-	ship "Legendary Behemoth" "Red 57"
-
+	ship "Legendary Behemoth" "The Red Saber"
+#Red's 57#
 person "Bloody Larry"
 	government "Omnicidal"
 	frequency 800

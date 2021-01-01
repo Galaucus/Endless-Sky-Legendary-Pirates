@@ -549,30 +549,48 @@ ship "Abomination"
         "cargo space" 700
         "outfit space" 1180
         "weapon capacity" 470
-        "engine capacity" 290
+        "engine capacity" 292
         weapon
             "blast radius" 660
             "shield damage" 4600
             "hull damage" 2300
             "hit force" 5900
 
-	gun -4.5 -223.5
+	outfits
+		"Armageddon Core"
+		"Hai Chasm Batteries"
+		"Hai Fissure Batteries"
+		"Hai Gorge Batteries"
+
+		"D41-HY Shield Generator"
+		"D94-YV Shield Generator" 2
+		
+		Brig
+		"Cooling Ducts"
+		"Liquid Helium Cooler"
+		"Water Coolant System"
+		"Scram Drive"
+		"Tactical Scanner"
+
+		"Heavy Anti-Missile Turret" 2
+		"Heavy Laser Turret" 4
+		"Anti-Missile Turret"
+		"Plasma Turret" 3
+		"Quad Blaster Turret" 2
+
+		"Tyrant Plasma Steering"
+		"Tyrant Plasma Thruster"
+
+
+	drone -4.5 -218
 	fighter -30 -218
-		under
 	fighter -30 -218
-		under
 	fighter -30 -218
-		under
 	fighter -30 -218
-		under
 	fighter -30 -218
-		under
 	fighter -30 -218
-		under
 	fighter -30 -218
-		under
-	fighter -30 -218
-		under		
+	fighter -30 -218	
 	turret -30 -193.5
 	turret 16 -111.5
 	turret -20.5 -6.5
@@ -634,6 +652,25 @@ person "Admiral Onorina"
 	ship "Legendary Aerie" "Straight and True"
 	ship "Marauder Dagger" "Right Hook"
 	ship "Marauder Dagger" "Uppercut"
+	
+person "The Collective"
+	government "Legendary Pirate"
+	frequency 800
+	personality
+		opportunistic plunders
+	system
+		near Sol 100
+	ship "Abomination" "Echoing Sass"
+	ship "Combat Drone" "Lake"
+	ship "Marauder Dagger" "Infinite Donuts"
+	ship "Marauder Dagger" "Warlord Mike"
+	ship "Finch" "Ferocious Feind"
+	ship "Finch" "Arkhne"
+	ship "Barb (Proton)" "Anarchist II"
+	ship "Barb" "Hydragyrum"
+	ship "Lance" "Arcticus"
+	ship "Dagger" "EjoThims"
+	
 
 person "Hans Ohno"
 	government "Smuggler"

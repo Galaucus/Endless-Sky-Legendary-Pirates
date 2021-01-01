@@ -136,17 +136,17 @@ ship "Legendary Behemoth"
 	thumbnail "thumbnail/mbehemoth"
 	attributes
 		category "Heavy Warship"
-		"cost" 17000000
-		"shields" 9200
+		"cost" 20000000
+		"shields" 10200
 		"hull" 7500
-		"required crew" 22
-		"bunks" 45
-		"mass" 480
-		"drag" 10.2
+		"required crew" 57
+		"bunks" 57
+		"mass" 580
+		"drag" 15.2
 		"heat dissipation" 0.3
-		"fuel capacity" 600
-		"cargo space" 300
-		"outfit space" 915
+		"fuel capacity" 500
+		"cargo space" 250
+		"outfit space" 830
 		"weapon capacity" 380
 		"engine capacity" 142
 		weapon
@@ -155,9 +155,10 @@ ship "Legendary Behemoth"
 			"hull damage" 835
 			"hit force" 2505
 	outfits
-		"Heavy Rocket Launcher" 4
-		"Plasma Turret" 4
-		"Heavy Rocket" 80
+		"Hai Tracker Pod" 4
+		"Proton Turret" 6
+		"Hai Tracker" 280
+		"Tracker Storage Pod" 2
 		"D94-YV Shield Generator"
 		"Liquid Helium Cooler"
 		"Outfits Expansion" 3
@@ -166,23 +167,23 @@ ship "Legendary Behemoth"
 		"A520 Atomic Thruster"
 		"A525 Atomic Steering"
 		"Scram Drive"
-		"Heavy Anti-Missile Turret" 2
-	gun -22.5 -86.5 "Heavy Rocket Launcher"
-	gun 22.5 -86.5 "Heavy Rocket Launcher"
-	gun -48.5 -56 "Heavy Rocket Launcher"
-	gun 48.5 -56 "Heavy Rocket Launcher"
-	turret -33.5 -47.5 "Plasma Turret"
-	turret 33.5 -47.5 "Plasma Turret"
-	turret -49.5 39.5 "Plasma Turret"
-	turret 49.5 39.5 "Plasma Turret"
-	turret -21.5 74 "Heavy Anti-Missile Turret"
-	turret 21.5 74 "Heavy Anti-Missile Turret"
-	engine -33 154 1.3
-	engine 33 154 1.3
-	engine -57 159.5 1.1
-	engine 57 159.5 1.1
-	engine -66.5 90.5 0.6
-	engine 66.5 90.5 0.6
+
+	turret -31.5 -49 "Proton Turret"
+	turret 31.5 -49 "Proton Turret"
+	turret -47 34 "Proton Turret"
+	turret 47 34 "Proton Turret"
+	turret -23.5 67 "Proton Turret"
+	turret 23.5 67 "Proton Turret"
+	gun -48 -57 "Hai Tracker Pod"
+	gun 48 -57 "Hai Tracker Pod"
+	gun -25 -84.5 "Hai Tracker Pod"
+	gun 25 -84.5 "Hai Tracker Pod"
+	engine -34.5 143
+	engine 34.5 143
+	engine -57.5 148.5 0.7
+	engine 57.5 148.5 0.7
+	engine -82 103.5 0.5
+	engine 82 103.5 0.5
 	explode "plasma explosion" 9
 	explode "small explosion" 27
 	explode "large explosion" 33

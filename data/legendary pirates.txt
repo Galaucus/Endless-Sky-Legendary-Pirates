@@ -189,7 +189,7 @@ ship "Legendary Behemoth"
 	explode "nuke explosion" 3
 	"final explode" "final explosion large"
 	description "The Behemoth always straddled the line between freighter and warship; the only thing preventing it from being a pirate's dream was its slow, lumbering nature. After all, you can't plunder what you can't catch. This Behemoth has been heavily modified to remove that particular weakness."
-	description "The Legendary Behemoth is a mega-battleship used for the sole purpose of plundering gigantic freighters, its huge cargo holds and massive weaponry help it to better strip merchants of their booty while its huge engines outmaneuver defense fleets."
+	description "The Legendary Behemoth is a mega-battleship used for the sole purpose of plundering gigantic freighters. Its huge cargo holds and massive weaponry help it to better strip merchants of their booty while enhanced engines outmaneuver defense fleets."
 
 
 ship "Legendary Aerie"
@@ -259,7 +259,7 @@ ship "Legendary Aerie"
 	description `"Dual electron beam turrets appear to be the most recent installations on this ship: Even if you, the new owner, were to replace them, the upgraded turret infrastructure that came with the installation should allow for beefier guns. Between them, a complement of torpedoes, and two fighter hangars, this ship alone really does boast the firepower of a small fleet - perhaps explaining why its previous owner claimed the title "Admiral".`
 
 ship "Marauder Dagger"
-	sprite "ship/mdaggar"
+	sprite "ship/mdagger"
 	thumbnail "thumbnail/mdagger"
 	attributes
 		category "Fighter"
@@ -298,7 +298,8 @@ ship "Marauder Dagger"
 	leak "leak" 60 50
 	explode "tiny explosion" 19
 	explode "small explosion" 7
-	description "The Legendary Daggar is one of the biggest fighters you have ever seen, it is big enough to hold reletivly powerful Atomic engines and a pair of javelin launchers. When used in swarms the Marauder daggar is capable of wreaking havoc on any ship."
+	description `Whatever technician up-gunned and up-armored this dagger clearly forgot the "lean" part of "lean mean fighting machine." Though bulked out to the point where it's liable to struggle with atmospheric maneuvering, this fightercraft looks like it'd be a mighty terror in the void (for its weight class, at least). The engine compartment was reworked to accomodate a potent set of Deep Sky atomics, while firepower has been increased to a linked set of javelin launchers.`
+	description "Plated over with additional armor and denser shield matrices, this ship exudes an ugly sort of menace. Some craftsman clearly put a lot of time into making this the toughest fighter around."
 
 ship "Legendary Corvette"
 	sprite "ship/corvette"
@@ -357,7 +358,7 @@ ship "Legendary Corvette"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "Sleek and mean, this corvette has been tweaked, modified, and rebuilt into a shining hotrod of the void. Whatever it can't kill it can likely outrun."
+	description "Sleek and mean, this corvette has been tweaked, modified, and rebuilt into a shining hotrod of the void. Whatever it can't kill it can likely outrun. As far as can be discerned, almost everything about the ship is new. None of the technology seems any more advanced than what else is on market: this corvette represents not so much a great step forward in shipbuilding technique as obscene amounts of money being spent to improve a single vessel."
 	
 ship "Legendary Osprey"
 	sprite "ship/osprey"

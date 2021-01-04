@@ -611,6 +611,13 @@ ship "Abomination"
 	engine 32 210.5
 	engine 54 198.5
 	engine 76 199.5
+	
+	description "They say the Abomination is simply the sum of two ships welded together, nothing more, nothing less. Composed mainly of an old Bactrian hull, a Mule has been attached - against all wisdom - to its flank. Just for good measure the Bactrian's command center was then re-mounted on the mule, and the new gaping hull in the donor ship converted to a hangar for multiple fightercraft."
+	description "They say the Abomination was the first Bactrian ever built. Centuries of repair, refurbishment, and replacement have left it without a single component in common with that venerable vessel which rolled out of spacedock so long ago. Does that mean it's still the same ship?"
+	description "They say the Abomination is respected across the galaxy as a sovereign nation, untouchable by lawkeepers or the Navy. How is that accomplished? A well-stocked nuclear torpedo bay, naturally.
+	description "They say the Abomination used to be painted a spicy shade of red and possesed hotrod flames blazing down its flanks. As soon as the paint was stripped the engines inexplicably suffered a 20% efficiency loss that they've never recovered from."
+	description "They say the Abomination is more than the sum of its parts, somehow transcending the limitations of the Mule and Bactrian to attain a harmonious synthesis. This is the pinnacle of the shipbuilder's art."
+	description "They say a lot of things about the Abomination. Do you believe them?"
 
 ship "Legendary Argosy"
 

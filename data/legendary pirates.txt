@@ -419,8 +419,8 @@ ship "Legendary Osprey"
 	description "After the Blackbird gained surprising popularity as an agile light warship despite its original design as a transport, Tarazed decided to produce a new design specifically intended as a warship. The Osprey was the result. Although it is considered overpriced by most savvy pilots, it is nevertheless a perennial favorite among those who have the extra cash to spend on it."
 	
 ship "Legendary Falcon"
-	sprite "ship/mfalcons"
-	thumbnail "thumbnail/mfalcons"
+	sprite "ship/lfalcon"
+	thumbnail "thumbnail/lfalcon"
 	attributes
 		category "Heavy Warship"
 		"cost" 28000000

@@ -27,9 +27,9 @@
 	#  X-Person
 	#   -Flavor
 	#6) Marauder+1 Falcon. Like a Marauder Falcon, but it has the upgrades of both variants.
-	#   -Ship data
-	#   -Sprite
-	#   -Thumbnail
+	#  X-Ship data
+	#  X-Sprite
+	#  X-Thumbnail
 	#  X-Person
 	#   -Flavor
 	#7) Marauder+1 Leviathan. Sorta' like the +1 Falcon; it's just both upgrade paths smushed together.
@@ -39,10 +39,10 @@
 	#  X-Person
 	#   -Flavor
 	#8) Marauder Bactrian. There's already one in-game as a person ship, but this one will be capturable.
-	#   -Ship data
-	#   -Sprite
-	#   -Thumbnail
-	#   -Person
+	#  X-Ship data
+	#  X-Sprite
+	#  X-Thumbnail
+	#  X-Person
 	#   -Flavor
 	#9) Some sort of famous smuggler. Uses merchant swizzle, hull will have built-in scan interference. Maybe a mod argosy. Basically a Millennium Falcon sort of ship.
 	#   -Ship data

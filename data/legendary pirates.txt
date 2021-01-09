@@ -362,8 +362,8 @@ ship "Legendary Corvette"
 	description "Sleek and mean, this corvette has been tweaked, modified, and rebuilt into a shining hotrod of the void. Whatever it can't kill it can likely outrun. As far as can be discerned, almost everything about the ship is new. None of the technology seems any more advanced than what else is on market: this corvette represents not so much a great step forward in shipbuilding technique as obscene amounts of money being spent to improve a single vessel."
 	
 ship "Legendary Osprey"
-	sprite "ship/osprey"
-	thumbnail "thumbnail/osprey"
+	sprite "ship/losprey"
+	thumbnail "thumbnail/losprey"
 	attributes
 		category "Medium Warship"
 		"cost" 4200000

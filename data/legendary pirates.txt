@@ -379,6 +379,7 @@ ship "Legendary Osprey"
 		"outfit space" 480
 		"weapon capacity" 200
 		"engine capacity" 135
+		"capture attack" 50
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -402,12 +403,12 @@ ship "Legendary Osprey"
 		
 	engine -40 67
 	engine 40 67
-	gun -8 -100 "Plasma Cannon"
-	gun 8 -100 "Plasma Cannon"
-	gun -26 -53 "Plasma Cannon"
-	gun 26 -53 "Plasma Cannon"
-	turret -16 -16 "Quad Blaster Turret"
-	turret 16 -16 "Heavy Anti-Missile Turret"
+	gun -8 -100 
+	gun 8 -100 
+	gun -26 -53 
+	gun 26 -53 
+	turret -16 -16 
+	turret 16 -16 
 	leak "leak" 40 50
 	leak "flame" 80 80
 	leak "big leak" 80 30
@@ -416,7 +417,8 @@ ship "Legendary Osprey"
 	explode "small explosion" 40
 	explode "tiny explosion" 28
 	"final explode" "final explosion medium"
-	description "After the Blackbird gained surprising popularity as an agile light warship despite its original design as a transport, Tarazed decided to produce a new design specifically intended as a warship. The Osprey was the result. Although it is considered overpriced by most savvy pilots, it is nevertheless a perennial favorite among those who have the extra cash to spend on it."
+	description "Although the Osprey is an elegant and powerful ship, there's one particular detail (aside from the price tag) that's kept it from being even more popular with pirates than it always is: the ship's somewhat underwhelming crew capacity leaves little room for error on boarding operations."
+	description "Significant modifications to this particular Osprey have made strides towards addressing that issue. Strong grav-clamps, powered magnets, and even grasping arms surround a ventral airlock resplendent with cutting hardware and built-in grenade launchers. Boarding operations made by this ship involve clamping to the site of choice, cutting a new entryway into the unfortunate victim, and flushing a generous quantity of explosives into breach. It's hardly a subtle way of plundering a ship, but certainly does wonders for the life expectancy of the boarding crew."
 	
 ship "Legendary Falcon"
 	sprite "ship/lfalcon"

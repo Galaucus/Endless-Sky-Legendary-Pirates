@@ -303,8 +303,8 @@ ship "Marauder Dagger"
 	description "Plated over with additional armor and denser shield matrices, this ship exudes an ugly sort of menace. Some craftsman clearly put a lot of time into making this the toughest fighter around."
 
 ship "Legendary Corvette"
-	sprite "ship/corvette"
-	thumbnail "thumbnail/corvette"
+	sprite "ship/lcorvette"
+	thumbnail "thumbnail/lcorvette"
 	attributes
 		category "Medium Warship"
 		"cost" 8800000

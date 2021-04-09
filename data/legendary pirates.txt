@@ -221,7 +221,7 @@ ship "Legendary Aerie"
 		"Sidewinder Missile" 136
 		"Sidewinder Missile Rack" 2
 		"Heavy Anti-Missile Turret"
-		"Torpedo Launcher"
+		"Torpedo Launcher" 2
 		"Torpedo" 60
 		"Electron Turret" 2
 		"A520 Atomic Thruster"
